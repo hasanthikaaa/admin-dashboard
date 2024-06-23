@@ -1,6 +1,6 @@
-import PostsTable from "@/components/posts/PostsTable";
-import BackButton from "@/components/BackButton";
-import PostsPagination from "@/components/posts/PostsPagination";
+import PostsTable from "admin-ui/components/posts/PostsTable";
+import BackButton from "admin-ui/components/BackButton";
+import PostsPagination from "admin-ui/components/posts/PostsPagination";
 
 
 const PostsPage = () => {

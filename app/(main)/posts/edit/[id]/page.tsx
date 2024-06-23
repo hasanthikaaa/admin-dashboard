@@ -1,15 +1,15 @@
 'use client';
 
-import BackButton from "@/components/BackButton";
+import BackButton from "admin-ui/components/BackButton";
 import * as z from "zod";
 import {useForm} from "react-hook-form";
 import {zodResolver}  from "@hookform/resolvers/zod";
-import {Form, FormControl, FormField, FormItem, FormLabel, FormMessage} from "@/components/ui/form";
-import {Input} from "@/components/ui/input";
-import {Textarea} from "@/components/ui/textarea";
-import {Button} from "@/components/ui/button";
-import posts from "@/data/posts";
-import {useToast} from "@/components/ui/use-toast";
+import {Form, FormControl, FormField, FormItem, FormLabel, FormMessage} from "admin-ui/components/ui/form";
+import {Input} from "admin-ui/components/ui/input";
+import {Textarea} from "admin-ui/components/ui/textarea";
+import {Button} from "admin-ui/components/ui/button";
+import posts from "admin-ui/data/posts";
+import {useToast} from "admin-ui/components/ui/use-toast";
 
 const formSchema = z.object({
     title: z.string().min(1,{message:"Title is required"}),
