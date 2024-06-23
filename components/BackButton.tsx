@@ -1,5 +1,4 @@
 import {ArrowLeftCircle} from 'lucide-react';
-import DashboardCard from "@/components/dashboard/DashboardCard";
 import Link from "next/link";
 
 interface BackButtonProps {
